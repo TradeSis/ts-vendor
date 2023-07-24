@@ -24,11 +24,11 @@ include_once __DIR__ . "/../config.php";
         <link rel="stylesheet"
                 href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
-        <link href="<?php echo URLROOT ?>/painel/css/bootstrap.css" rel="stylesheet" type="text/css">
-        <link href="<?php echo URLROOT ?>/painel/css/padrao.css" rel="stylesheet" type="text/css">
-        <link href="<?php echo URLROOT ?>/painel/css/menu.css" rel="stylesheet" type="text/css">
+        <link href="<?php echo URLROOT ?>/sistema/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="<?php echo URLROOT ?>/sistema/css/padrao.css" rel="stylesheet" type="text/css">
+        <link href="<?php echo URLROOT ?>/sistema/css/menu.css" rel="stylesheet" type="text/css">
 
-        <script src="<?php echo URLROOT ?>/painel/js/input.js"></script>
+        <script src="<?php echo URLROOT ?>/sistema/js/input.js"></script>
 
 
       
