@@ -3,8 +3,7 @@ include_once __DIR__ . "/../config.php";
 ?>
 
 <head>
-        <title>TS/painel</title>
-
+        
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -30,8 +29,11 @@ include_once __DIR__ . "/../config.php";
 
         <script src="<?php echo URLROOT ?>/sistema/js/input.js"></script>
 
-
-      
+        <link rel="stylesheet" type="text/css" href="<?php echo URLROOT ?>/vendor/fullcalendar/fullcalendar.min.css">
+        <script type="text/javascript" src="<?php echo URLROOT ?>/vendor/fullcalendar/moment.min.js"></script>
+        <script type="text/javascript" src="<?php echo URLROOT ?>/vendor/fullcalendar/fullcalendar.min.js"></script>
+        <script type="text/javascript" src="<?php echo URLROOT ?>/vendor/fullcalendar/pt-br.min.js"></script>
+        
         <link href="<?php echo URLROOT ?>/vendor/aos/aos.css" rel="stylesheet"> <!-- Transição dos elementos -->
         <script src="<?php echo URLROOT ?>/vendor/aos/aos.js"></script>
         <link href="<?php echo URLROOT ?>/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
