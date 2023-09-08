@@ -19,7 +19,6 @@ body .fc {
 }
 .fc-event,
 .fc-event:hover,
-.fc-state-hover,
 .fc.fc-bootstrap3 a,
 .ui-widget .fc-event,
 a.fc-more {
@@ -67,16 +66,6 @@ a.fc-more {
   border: 1px solid;
   background-color: #f5f5f5;
   background-image: -moz-linear-gradient(top, #fff, #e6e6e6);
-  background-image: -webkit-gradient(
-    linear,
-    0 0,
-    0 100%,
-    from(#fff),
-    to(#e6e6e6)
-  );
-  background-image: -webkit-linear-gradient(top, #fff, #e6e6e6);
-  background-image: -o-linear-gradient(top, #fff, #e6e6e6);
-  background-image: linear-gradient(to bottom, #fff, #e6e6e6);
   background-repeat: repeat-x;
   border-color: #e6e6e6 #e6e6e6 #bfbfbf;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
@@ -102,18 +91,6 @@ a.fc-more {
 .fc-state-active,
 .fc-state-disabled,
 .fc-state-down,
-.fc-state-hover {
-  color: #333;
-  background-color: #e6e6e6;
-}
-.fc-state-hover {
-  color: #333;
-  background-position: 0 -15px;
-  -webkit-transition: background-position 0.1s linear;
-  -moz-transition: background-position 0.1s linear;
-  -o-transition: background-position 0.1s linear;
-  transition: background-position 0.1s linear;
-}
 .fc-state-active,
 .fc-state-down {
   background-color: #ccc;
@@ -623,10 +600,6 @@ a.fc-more:hover {
 }
 .fc-toolbar button {
   position: relative;
-}
-.fc-toolbar .fc-state-hover,
-.fc-toolbar .ui-state-hover {
-  z-index: 2;
 }
 .fc-toolbar .fc-state-down {
   z-index: 3;
