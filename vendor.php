@@ -3,8 +3,7 @@ include_once __DIR__ . "/../config.php";
 ?>
 
 <head>
-        <title>TS/painel</title>
-
+        
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -24,19 +23,29 @@ include_once __DIR__ . "/../config.php";
         <link rel="stylesheet"
                 href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
-        <link href="<?php echo URLROOT ?>/painel/css/bootstrap.css" rel="stylesheet" type="text/css">
-        <link href="<?php echo URLROOT ?>/painel/css/padrao.css" rel="stylesheet" type="text/css">
-        <link href="<?php echo URLROOT ?>/painel/css/menu.css" rel="stylesheet" type="text/css">
+        <link href="<?php echo URLROOT ?>/sistema/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="<?php echo URLROOT ?>/sistema/css/padrao.css" rel="stylesheet" type="text/css">
+        <link href="<?php echo URLROOT ?>/sistema/css/menu.css" rel="stylesheet" type="text/css">
 
-        <script src="<?php echo URLROOT ?>/painel/js/input.js"></script>
+        <script src="<?php echo URLROOT ?>/sistema/js/input.js"></script>
 
-
-      
+        <link rel="stylesheet" type="text/css" href="<?php echo URLROOT ?>/vendor/fullcalendar/fullcalendar.min.css">
+        <script type="text/javascript" src="<?php echo URLROOT ?>/vendor/fullcalendar/moment.min.js"></script>
+        <script type="text/javascript" src="<?php echo URLROOT ?>/vendor/fullcalendar/fullcalendar.min.js"></script>
+        <script type="text/javascript" src="<?php echo URLROOT ?>/vendor/fullcalendar/pt-br.min.js"></script>
+        
         <link href="<?php echo URLROOT ?>/vendor/aos/aos.css" rel="stylesheet"> <!-- Transição dos elementos -->
         <script src="<?php echo URLROOT ?>/vendor/aos/aos.js"></script>
         <link href="<?php echo URLROOT ?>/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
         <script src="<?php echo URLROOT ?>/vendor/swiper/swiper-bundle.min.js"></script>
         <script src="<?php echo URLROOT ?>/vendor/glightbox/js/glightbox.min.js"></script>
     
+        <!-- Fonte Inter -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Inter:wght@300;400;500&family=Poppins:wght@300&display=swap" rel="stylesheet">
 
+        <!-- QUILL editor -->
+        <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+        <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
 </head>
