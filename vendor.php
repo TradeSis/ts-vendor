@@ -40,11 +40,12 @@ include_once __DIR__ . "/../config.php";
         <script src="<?php echo URLROOT ?>/vendor/swiper/swiper-bundle.min.js"></script>
         <script src="<?php echo URLROOT ?>/vendor/glightbox/js/glightbox.min.js"></script>
     
-        <!-- Fonte Inter -->
+        <!-- Fonte Inter Helio 03102023 SITE https://fonts.google.com/specimen/Inter -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Inter:wght@300;400;500&family=Poppins:wght@300&display=swap" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+        <!-- Fonte Inter -->
+       
         <!-- QUILL editor -->
         <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
         <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
