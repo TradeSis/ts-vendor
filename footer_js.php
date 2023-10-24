@@ -1,16 +1,6 @@
 
-        <!---Relacionados ao bootstrap -->
-        <script src="<?php echo URLROOT ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="<?php echo URLROOT ?>/vendor/animacoes/bodymovin.js"></script>
-        <script src="<?php echo URLROOT ?>/vendor/jquery/jquery.min.js"></script>
-        <script src="<?php echo URLROOT ?>/vendor/jquery/jquery.mask.min.js" type="text/javascript"></script>
-        <script src="<?php echo URLROOT ?>/vendor/jquery/tabletojson.min.js" type="text/javascript"></script>
-        <script src="<?php echo URLROOT ?>/vendor/jquery-easing/jquery.easing.min.js"></script>
-        <script src="<?php echo URLROOT ?>/vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="<?php echo URLROOT ?>/vendor/bootstrap/bootbox/bootbox.min.js" type="text/javascript"></script>
-
-        <!-- bacote js bootstrap -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!-- bacote js bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <!-- jquery -->
         <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -29,5 +19,3 @@
 
         <!-- QUILL editor -->
         <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
-       
-
