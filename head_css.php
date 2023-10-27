@@ -16,13 +16,8 @@ include_once __DIR__ . "/../config.php";
 
         <!-- CSS -->
         <link href="<?php echo URLROOT ?>/sistema/css/bootstrap.css" rel="stylesheet" type="text/css">
-        <link href="<?php echo URLROOT ?>/sistema/css/padrao.css" rel="stylesheet" type="text/css">
-        <link href="<?php echo URLROOT ?>/sistema/css/menu.css" rel="stylesheet" type="text/css">
-        <link href="<?php echo URLROOT ?>/sistema/css/painel.css" rel="stylesheet" type="text/css">
         <link href="<?php echo URLROOT ?>/sistema/css/estilo.css" rel="stylesheet" type="text/css">
-
-        <!-- Calendario -->
-        <link rel="stylesheet" type="text/css" href="<?php echo URLROOT ?>/vendor/fullcalendar/fullcalendar.min.css">
+ 
         
         <!-- Transição dos elementos de paginas.php -->
         <link href="<?php echo URLROOT ?>/vendor/aos/aos.css" rel="stylesheet"> 
@@ -35,5 +30,5 @@ include_once __DIR__ . "/../config.php";
         <!-- Fonte Inter -->
        
         <!-- QUILL editor -->
-        <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+        
  

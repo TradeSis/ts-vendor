@@ -17,5 +17,4 @@
         <script src="<?php echo URLROOT ?>/vendor/swiper/swiper-bundle.min.js"></script>
         <script src="<?php echo URLROOT ?>/vendor/glightbox/js/glightbox.min.js"></script>
 
-        <!-- QUILL editor -->
-        <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+        
