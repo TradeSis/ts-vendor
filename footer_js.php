@@ -8,9 +8,5 @@
 
         
 
-        <!-- Transição dos elementos de paginas.php -->
-        <script src="<?php echo URLROOT ?>/vendor/aos/aos.js"></script>
-        <script src="<?php echo URLROOT ?>/vendor/swiper/swiper-bundle.min.js"></script>
-        <script src="<?php echo URLROOT ?>/vendor/glightbox/js/glightbox.min.js"></script>
 
         

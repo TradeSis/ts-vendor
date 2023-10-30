@@ -17,10 +17,6 @@ include_once __DIR__ . "/../config.php";
         <link href="<?php echo URLROOT ?>/sistema/css/estilo.css" rel="stylesheet" type="text/css">
  
         
-        <!-- Transição dos elementos de paginas.php -->
-        <link href="<?php echo URLROOT ?>/vendor/aos/aos.css" rel="stylesheet"> 
-        <link href="<?php echo URLROOT ?>/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    
         <!-- Fonte Inter Helio 03102023 SITE https://fonts.google.com/specimen/Inter -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
