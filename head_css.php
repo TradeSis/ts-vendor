@@ -24,6 +24,9 @@ include_once __DIR__ . "/../config.php";
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
         <!-- Fonte Inter -->
        
-        <!-- QUILL editor -->
+        <!-- NOVO QUILL -->
+        <link href="http://localhost/vendor/quilljs/quill.snow.css" rel="stylesheet">
+
+
         
  
