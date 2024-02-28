@@ -5,8 +5,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <!-- input dos formularios -->
         <script src="<?php echo URLROOT ?>/sistema/js/input.js"></script>
-        <!-- NOVO QUILL -->
-        <script src="http://localhost/vendor/quilljs/quill.min.js"></script>
+        <!-- QUILL -->
+        <script src="<?php echo URLROOT ?>/vendor/quilljs/quill.min.js"></script>
 
 
       
