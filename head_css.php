@@ -6,9 +6,10 @@ include_once __DIR__ . "/../config.php";
         <!-- Icone da Pagina -->
         <link rel="icon" href="<?php echo URLROOT ?>/img/meucontrole_icon.png" type="image/png">
 
-        <!---Adicionado cdn dpo Bootstrap 5.0.2 -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+        <!---Adicionado cdn dpo Bootstrap 5.0.2 ANTIGO -->
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+        <!-- Bootstrap Atualizado -->
+        <link href="<?php echo URLROOT ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <!---Bootstrap Icon -->
         <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"> -->
         <link rel="stylesheet" href="<?php echo URLROOT ?>/vendor/bootstrap/bootstrap-icons-1.11.3/font/bootstrap-icons.css">
